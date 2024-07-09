@@ -1,5 +1,4 @@
 body{
-
     height: 100vh;
     width: 100;
     max-width: 1080px;
@@ -7,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 8px;
-    justify-content: center;
+    /* justify-content: center; */
     margin:auto;
     margin-bottom: 8px;
     /* position:relative */
@@ -17,16 +16,17 @@ body{
 
 nav {
 margin-top: 10px;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 
 #headline{
     display: flex;
-    padding: 10px;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-size: 46px;
     color:darkred;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .links{
@@ -42,8 +42,8 @@ margin-bottom: 20px;
 
 
 #navlinks a{
-    font-size: 28px;
-    padding: 10px;
+    font-size: 26px;
+    /* margin-top: 40px; */
     text-decoration: none;
     cursor: pointer;
     color: inherit;
@@ -180,8 +180,8 @@ footer {
     z-index: 10;
 }
 #sociallinks{
-margin-left: 4rem;
-margin-right: 4rem;
+margin-left: 2rem;
+margin-right: 2rem;
 
 }
 
@@ -226,8 +226,8 @@ color:darkgray
 
     }
     #sociallinks {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
 
     }
     #leftblock{
