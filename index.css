@@ -77,11 +77,11 @@ color:darkgrey;
 
 #leftblock{
     position: absolute;
-    width: 9rem;
-    height: 13rem;
+    width: 7rem;
+    height: 11rem;
     background-color: black;
-    top:3rem;
-    left:4rem;
+    top:2rem;
+    left:6rem;
 }
 
 #stripes{
@@ -114,19 +114,19 @@ color:darkgrey;
 #redbox {
     background-color: darkred;
     position: absolute;
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     top:18rem;
-    right:10rem;
+    right:11rem;
 }
 
 #blackbox {
     background-color: black;
     position: absolute;
-    width: 2rem;
-    height: 2rem;
-    top:18rem;
-    left:12rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    top:17rem;
+    left:11rem;
 }
 
 #hero {
@@ -157,7 +157,7 @@ color:darkgrey;
     justify-content: center;
     text-align: center;
     padding: 20px;
-    padding-top: 3rem;
+    padding-top: 3.5rem;
 }
 
 h2 {
@@ -232,18 +232,18 @@ color:darkgray
     }
     #leftblock{
         position: absolute;
-        width: 8rem;
-        height: 12rem;
+        width: 6rem;
+        height: 9rem;
         top:1rem;
-        left:1rem;
+        left:2rem;
     }
     
     #stripes{
         position: absolute;
-        width: 6rem;
-        height: 6rem;
-        top:10rem;
-        right:1rem;
+        width: 5rem;
+        height: 5rem;
+        top:9rem;
+        right:2rem;
     }
 
     #halfoutline {
@@ -251,8 +251,8 @@ color:darkgray
         border-right: 1px solid black;
         width: 1.3rem;
         height: 1.3rem;
-        top:7rem;
-        right:1.5rem;
+        top:6rem;
+        right:2.5rem;
     
     }
 
@@ -260,21 +260,20 @@ color:darkgray
         width: 3rem;
         height: .75rem;
         top:3rem;
-        right:2.5rem;
+        right:3rem;
     }
 
     #redbox {
     width: 2rem;
     height: 2rem;
-    top:18rem;
-    right:4rem;
+    top:15rem;
+    right:5rem;
     }
 
     #blackbox {
-
         width: 1.5rem;
         height: 1.5rem;
-        top:16rem;
+        top:14rem;
         left:4rem;
     }
 }
